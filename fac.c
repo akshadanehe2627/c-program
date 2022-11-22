@@ -28,3 +28,4 @@ void sub()
   c=a-b;
   printf("\n sub of two no=%d",c);
 }
+}
