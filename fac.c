@@ -9,4 +9,22 @@ main()
     fact=fact*i;
   }
   printf("\n fact=%d",fact);
+  add():
+  sub();
+}
+void add()
+{
+  int a,b,c;
+  printf("\n enter the two no");
+  scanf("%d%d",&a,&b);
+  c=a+b;
+  printf("\n addition of two no,%d",c);
+}
+void sub()
+{
+  int a,b,c;
+  printf("\n enter the two no");
+  scanf("%d%d",&a,&b);
+  c=a-b;
+  printf("\n sub of two no=%d",c);
 }
